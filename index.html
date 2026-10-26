@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Umar Abdullah</title>
+<meta name="description" content="Portfolio of Umar Abdullah, web developer and BSc Computer Science student from Talagang, Pakistan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Umar Abdullah, back to top">
+      <span class="brand-mark">UA</span>
+      <span class="brand-name">Umar Abdullah</span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch colour theme">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 8h16M4 16h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Web developer &middot; Talagang, Punjab</p>
+        <h1 class="name reveal" aria-label="Umar Abdullah">
+          <span class="name-line">Umar</span>
+          <span class="name-line"><span class="hl">Abdullah</span></span>
+        </h1>
+        <p class="role reveal">I build <span class="typed" id="typed" aria-live="off">responsive websites</span><span class="caret" aria-hidden="true"></span></p>
+        <p class="lead reveal">Web developer with 4+ responsive web and mobile applications behind me, built in HTML, CSS, JavaScript and C++. Currently studying BSc Computer Science at Air University.</p>
+        <div class="cta-row reveal">
+          <a class="btn btn-primary" href="#contact">Get in touch <span aria-hidden="true">&rarr;</span></a>
+          <a class="btn btn-ghost" href="#skills">See my skills</a>
+        </div>
+        <dl class="facts reveal">
+          <div class="fact"><dt>Apps built</dt><dd><span class="count" data-count="4">4</span>+</dd></div>
+          <div class="fact"><dt>Skills practised</dt><dd><span class="count" data-count="10">10</span></dd></div>
+          <div class="fact"><dt>Languages spoken</dt><dd><span class="count" data-count="2">2</span></dd></div>
+        </dl>
+      </div>
+
+      <div class="portrait-wrap reveal">
+        <div class="portrait" id="portrait">
+          <div class="portrait-block" aria-hidden="true"></div>
+          <img class="portrait-img" src="photo.jpg" width="900" height="1200" alt="Portrait of Umar Abdullah in a grey suit and black tie" fetchpriority="high">
+          <svg class="badge" viewBox="0 0 120 120" width="116" height="116" aria-hidden="true">
+            <defs><path id="badge-circle" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+            <circle cx="60" cy="60" r="58" class="badge-bg"/>
+            <text class="badge-text"><textPath href="#badge-circle" startOffset="0">WEB DEVELOPER &#8226; BSc COMPUTER SCIENCE &#8226; </textPath></text>
+            <text x="60" y="66" text-anchor="middle" class="badge-mono">UA</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-label="Technologies I work with">
+    <div class="marquee-track">
+      <ul class="marquee-group">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>C++</li><li>SQL</li><li>REST APIs</li><li>Git &amp; GitHub</li><li>Responsive Design</li><li>App Development</li>
+      </ul>
+      <ul class="marquee-group" aria-hidden="true">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>C++</li><li>SQL</li><li>REST APIs</li><li>Git &amp; GitHub</li><li>Responsive Design</li><li>App Development</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap section-grid">
+      <h2 class="rail">About</h2>
+      <div class="section-body">
+        <p class="statement reveal">I build fast, responsive interfaces that behave the same on every screen, and I&rsquo;m sharpening my system design and algorithm skills at university.</p>
+        <div class="about-cols">
+          <div class="prose reveal">
+            <p>I&rsquo;ve built four-plus web and mobile applications with HTML, CSS, JavaScript and C++. I care about clean layouts, quick load times and cross-browser behaviour, and I&rsquo;ve tuned mobile layouts and page performance on my own portfolio work.</p>
+            <p>In team projects I led Git-based code integration, which meant coordinating deliverables and getting them finished on time. Alongside that, I&rsquo;m studying for a BSc in Computer Science to go deeper on data structures, databases and system design.</p>
+          </div>
+          <dl class="info reveal">
+            <div><dt>Based in</dt><dd>Talagang, Punjab</dd></div>
+            <div><dt>Studying</dt><dd>BSc Computer Science, Air University</dd></div>
+            <div><dt>Languages</dt><dd>English, Urdu</dd></div>
+            <div><dt>Focus</dt><dd>Responsive web, REST APIs, C++</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="wrap section-grid">
+      <h2 class="rail">Skills</h2>
+      <div class="section-body">
+        <p class="section-note reveal">Self-rated out of five. Front-end work is where I&rsquo;m strongest; SQL, C++ and Git are growing with my coursework.</p>
+        <ul class="skills">
+          <li class="skill reveal" data-level="4"><span class="skill-name">HTML</span><span class="skill-level">4 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="4"><span class="skill-name">CSS</span><span class="skill-level">4 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="4"><span class="skill-name">JavaScript</span><span class="skill-level">4 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="4"><span class="skill-name">Responsive Web Design</span><span class="skill-level">4 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="4"><span class="skill-name">RESTful APIs</span><span class="skill-level">4 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="4"><span class="skill-name">Web Development</span><span class="skill-level">4 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="3"><span class="skill-name">C++</span><span class="skill-level">3 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="3"><span class="skill-name">SQL</span><span class="skill-level">3 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="3"><span class="skill-name">Git / GitHub</span><span class="skill-level">3 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+          <li class="skill reveal" data-level="3"><span class="skill-name">App Development</span><span class="skill-level">3 / 5</span><span class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="wrap section-grid">
+      <h2 class="rail">What I&rsquo;ve built</h2>
+      <div class="section-body">
+        <ul class="work">
+          <li class="work-item reveal">
+            <h3>Web and mobile applications</h3>
+            <div>
+              <p>More than four applications written in HTML, CSS, JavaScript and C++, with responsive interfaces that hold up across browsers.</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>C++</li></ul>
+            </div>
+          </li>
+          <li class="work-item reveal">
+            <h3>Personal portfolio</h3>
+            <div>
+              <p>A site that shows my projects and skills, with the mobile layout and page performance tuned for a smoother experience.</p>
+              <ul class="tags"><li>Responsive design</li><li>Performance</li></ul>
+            </div>
+          </li>
+          <li class="work-item reveal">
+            <h3>CRUD apps with REST APIs</h3>
+            <div>
+              <p>Coursework projects that create, read, update and delete data through RESTful APIs, backed by SQL for persistence.</p>
+              <ul class="tags"><li>REST APIs</li><li>SQL</li><li>CRUD</li></ul>
+            </div>
+          </li>
+          <li class="work-item reveal">
+            <h3>Team code integration</h3>
+            <div>
+              <p>Led version control and code integration with Git across team projects, coordinating deliverables so work shipped on time.</p>
+              <ul class="tags"><li>Git</li><li>GitHub</li><li>Teamwork</li></ul>
+            </div>
+          </li>
+          <li class="work-item reveal">
+            <h3>Algorithms in C++</h3>
+            <div>
+              <p>C++ projects and data-structures coursework focused on solving problems efficiently.</p>
+              <ul class="tags"><li>C++</li><li>Data structures</li><li>Problem solving</li></ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-alt" id="education">
+    <div class="wrap section-grid">
+      <h2 class="rail">Education</h2>
+      <div class="section-body">
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <p class="tl-date">Aug 2020 &ndash; Aug 2022</p>
+            <h3>Matriculation</h3>
+            <p class="tl-school">VIP Secondary School, Talagang</p>
+            <p>Focused on Mathematics and Computer Studies, building a strong base in analysis and problem solving.</p>
+          </li>
+          <li class="tl-item reveal">
+            <p class="tl-date">Sep 2022 &ndash; Aug 2024</p>
+            <h3>Intermediate in Computer Science (ICS)</h3>
+            <p class="tl-school">Punjab Group of Colleges, Talagang</p>
+            <p>Coursework in programming fundamentals, data structures, database basics and web technologies.</p>
+          </li>
+          <li class="tl-item tl-current reveal">
+            <p class="tl-date">Sep 2024 &ndash; Present <span class="pill">In progress</span></p>
+            <h3>BSc Computer Science</h3>
+            <p class="tl-school">Air University, Attock City</p>
+            <p>Coursework in programming, data structures, databases and web development.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-panel reveal">
+        <h2 class="contact-title">Let&rsquo;s build something <span class="hl">together.</span></h2>
+        <p class="contact-lead">Have a project, an internship or a team that needs a web developer? Reach out and I&rsquo;ll get back to you.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="c-label">Phone</span>
+            <span class="c-value" id="phone-text">0317 5302266</span>
+            <span class="c-actions">
+              <button class="chip-btn" type="button" id="copy-phone">Copy number</button>
+              <a class="chip-btn" href="https://wa.me/923175302266" target="_blank" rel="noopener">WhatsApp</a>
+            </span>
+          </li>
+          <li>
+            <span class="c-label">Location</span>
+            <span class="c-value">Talagang, Punjab, 48090</span>
+            <span class="c-actions"></span>
+          </li>
+          <!-- Add your own rows here, e.g. GitHub or LinkedIn:
+          <li><span class="c-label">GitHub</span><span class="c-value">github.com/your-name</span><span class="c-actions"><a class="chip-btn" href="https://github.com/your-name" target="_blank" rel="noopener">Open</a></span></li>
+          -->
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <p>&copy; <span id="year">2026</span> Umar Abdullah</p>
+    <a href="#top">Back to top &uarr;</a>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
